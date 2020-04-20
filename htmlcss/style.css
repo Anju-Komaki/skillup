@@ -16,7 +16,7 @@ header{
 	height: 70px;
 }
 
-.head-nav {
+.container {
 	width: 1024px;
 	margin: 0 auto;
 
@@ -46,33 +46,104 @@ header{
 	text-decoration: none;
 }
 
-.main-visual {
+.mv {
 	width: 100%;
 	height: 650px;
+	text-align: center;
+	color: #FAFAFA;
 	background-image: url(img/mv.png);
 	background-size: cover;
 	background-position: center;
 }
 
-.main-visual-content {
-	color: #FAFAFA;
-	padding: 200px 0;
+.mv-title {
+	font-size: 64px;
+	padding-top: 200px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.mv-text {
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+.portfolio {
+	background-color: #ECEFF1;
+}
+
+
+.p-title {
+	font-size: 32px;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-top: 90px;
+}
+
+.p-title::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #EC715F;
+}
+
+.p-text {
+	font-size: 16px;
+	padding: 30px 0;
 	text-align: center;
 }
 
-.main-visual-text {
-	font-size: 64px;
-	padding-bottom: 10px;
+.portfolio-visual {
+	width: 920px;
+	padding: 30px 0 90px 0;
+	margin: 0 auto;
 }
 
-.main-visual-text2 {
-	font-size: 20px;
+.p-visual {
+	float: left;
+	width: 300px;
+	height: 250px;
+	margin: 10px 10px 0 0;
+	background-size: cover;
+	background-position: center;
 }
+
+.p-visual:nth-child(3), .p-visual:nth-child(6) {
+	margin-right: 0;
+}
+
+
+.bg1 {
+	background-image: url(img/sketch.jpg);
+}
+
+.bg2 {
+	background-image: url(img/websuku.png);
+}
+
+.bg3 {
+	background-image: url(img/write.jpg);
+}
+
+.bg4 {
+	background-image: url(img/webcamp.png);
+}
+
+.bg5 {
+	background-image: url(img/talk.jpg);
+}
+
+.bg6 {
+	background-image: url(img/webcamp-mother.png);
+}
+
 
 footer{
 	background-color: #EC715F;
 	width: 100%;
 	height: 60px;
+	line-height: 60px;
 }
 
 .foot {
@@ -80,3 +151,4 @@ footer{
 	font-size: 16px;
 	color: #FAFAFA;
 }
+
