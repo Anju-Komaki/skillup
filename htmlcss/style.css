@@ -341,3 +341,106 @@ footer{
 	color: #FAFAFA;
 }
 
+
+@media screen and (max-width:768px) {
+	.container {
+		width: 90%;
+	}
+
+	.menu-box {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-right: 5%;
+		border: 1px solid #FAFAFA;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+
+	.nav {
+		float: none;
+	}
+
+	.nav-list {
+		display: none;
+		float: none;
+		width: 100%;
+		line-height: 50px;
+		border-bottom: 1px solid gray;
+		text-align: center;
+	}
+
+	.mv-title {
+		font-size: 40px;
+	}
+
+	.mv-text {
+		font-size: 18px;
+	}
+
+	.portfolio-visual {
+		width: 300px;
+	}
+
+	.feature {
+		padding: 0 5%;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.f-group {
+		width: 320px;
+	}
+
+	.f-content {
+		float: none;
+		margin-top: 10px;
+	}
+
+	.f-content:first-child {
+		margin-top: 0;
+	}
+
+	.pr-content {
+		text-align: center;
+	}
+
+	.left-content {
+		float: none;
+		width: 100%;
+	}
+
+	.right-content {
+		float: none;
+		width: 100%;
+	}
+
+	.c-contact {
+		width: 100%;
+		text-align: center;
+	}
+
+	.c-left {
+		float: none;
+		width: 100%;
+	}
+
+	.c-left-content {
+		width: 100%;
+	}
+
+	.c-right {
+		float: none;
+		width: 100%;
+	}
+
+	.c-right-content {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.c-sub:first-child {
+		margin-top: 20px;
+	}
+
+}
