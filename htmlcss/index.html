@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<script src="https://kit.fontawesome.com/c7b8ec43cf.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width">
 	<title>Skill up contents</title>
 </head>
 <body>
@@ -12,12 +12,15 @@
 		<div class="container clearfix">
 		<img src="img/logo.png" class="logimg" alt="ロゴ">
 		
-		<div class="menu-box">
-			<span class="list-bar"></span>
-			<span class="list-bar"></span>
-			<span class="list-bar"></span>
+		<div id="menu-box">
+			<a class="menu-trigger" href="#">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
 		</div>
 
+		<div id="h-menu">
 		<nav>
 		 	<ul class="nav">
 				<li class="nav-list"><a href="#">Portgolio</a></li>
@@ -27,10 +30,11 @@
 		 	</ul>
 	     </nav>
 	    </div>
+		</div>
     </header>
 
     <section class="mv">
-		<div class="conttainer">
+		<div class="container">
 			<div class="main-visual-content">
 				<h1 class="mv-title">Lorem Ipsum</h1>
 				<p class="mv-text">simply dummy text of the printing</p>
@@ -135,6 +139,7 @@
 	<footer>
 		<p class="foot">©2017 WebCamp</p>
 	</footer>
-
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
